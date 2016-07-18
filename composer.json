@@ -11,10 +11,14 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "5.1.x|5.2.x",
-        "dompdf/dompdf": "^0.7"
+        "illuminate/support": "5.1.x|5.2.x"
     },
-
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/adamKirkVP/dompdf.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Barryvdh\\DomPDF\\": "src"
