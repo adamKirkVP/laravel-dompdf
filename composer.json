@@ -1,12 +1,12 @@
 {
-    "name": "barryvdh/laravel-dompdf",
+    "name": "adamkirkVP/laravel-dompdf",
     "description": "A DOMPDF Wrapper for Laravel",
     "license": "MIT",
     "keywords": ["laravel", "dompdf", "pdf"],
     "authors": [
         {
-            "name": "Barry vd. Heuvel",
-            "email": "barryvdh@gmail.com"
+            "name": "Adam Kirk",
+            "email": "adam.kirk@victoriaplum.com"
         }
     ],
     "require": {
@@ -21,12 +21,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Barryvdh\\DomPDF\\": "src"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.7-dev"
+            "AdamKirk\\DomPDF\\": "src"
         }
     },
     "minimum-stability": "dev"
