@@ -22,7 +22,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "adamKirkVP\\DomPDF\\": "src"
+            "Barryvdh\\DomPDF\\": "src"
         }
     },
     "minimum-stability": "dev"
